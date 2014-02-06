@@ -1,0 +1,197 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container2{
+     clear: left;
+}
+#left,#center,#right {
+     border: 1px solid black;
+     width: 33%;
+     float: left;
+     height: 100px;
+}
+#float-container{
+     border: 1px solid black;
+}
+
+header{
+     border: 1px solid black;
+     margin-bottom: 5px;
+     background-image:url('../lax-pics/background-image.jpg');
+     background-size: cover;
+}
+
+footer{
+     border: 1px solid black;
+}
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+h1{
+     font-family: 'Iceland', cursive;
+}
+
+h2{
+     font-family: 'Iceland', cursive;
+}
+
+#showofftitle {
+     font-size: 48px;
+}
+img{
+     border: 5px solid orange;
+}
+p{
+     font-size: 22px;
+     font-style: bold;
+     font: solid orange;
+     font-family: 'Iceland', cursive;
+}
+
+.showofffont{
+	font-family: Princetown LET;
+	font-style: bold;
+	font-size: 24px;
+
+}
+#option-list{
+     overflow: auto;
+}
+a{
+	display: block;
+	color: orange;
+	background-color: black;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+     font-size: 16px;
+     font-family: 'Iceland', cursive;
+
+
+
+
+}
+ul li a{
+	float: left;
+	padding: 5px;
+     margin: 5px;
+
+}
+body{
+     border: 1px black;
+     overflow: auto;
+     background-color: #e9e9e9;
+ }
+
+.profile-info{
+     float: left;
+}
+
+label{
+     font-family: 'Iceland', cursive;
+     font-size: 22px;
+}
+input{
+     font-family: 'Iceland', cursive;
+     font-size: 22px;
+}
+
+.camps{
+     font-size: 22px;
+     font-family: 'Iceland', cursive;
+
+}
+
+.masonry{
+     float: left;
+     border: 5px solid #FF8C00;
+     width: 25%;
+     background: white;
+}
+
+.masonry>img{width:100%;}
+
+#container2<p{
+     font-size: 11px;
+}
+
+/*at a certain px I want to use a an option where you can scroll on videos/pictures in a single file.  this way it will scroll like instagram. this is going on in class 14 on how to adjust the screen*/
+
+@media (max-width: 600px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
